@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 struct Date* initDate(int year, int month, int day){
-  struct Date* date = (struct Date*)malloc(sizeof(struct Date*));
+  struct Date* date = (struct Date*)malloc(sizeof(struct Date));
   date->year = year;
   date->month = month;
   date->day = day;

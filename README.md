@@ -1,11 +1,11 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+This repo created by Fiodar Pazhyvilka from template
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+Laboratory work by **Fiodar Pazhyvilka, group 13**.
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+To build the project the make utility is used

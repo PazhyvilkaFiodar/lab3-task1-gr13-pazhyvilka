@@ -1,8 +1,11 @@
-/* hello.c */
 #include <stdio.h>
+#include "Date.h"
 
-void main (void)
+int main (void)
 {
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+  printf("Enter the date in format yyyy-mm-dd\n");
+  int year, month, day;
+  scanf("%d-%d-%d", &year, &month, &day);
+  printf("Number of days between dates: %lld\n", countDays(initDate(1970, 1, 1), initDate(year, month, day)));
+  return 0;
 }
